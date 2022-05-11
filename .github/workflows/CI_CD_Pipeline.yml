@@ -1,0 +1,46 @@
+name: Live Face Mask Detection Python
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Set up Python 3.6
+      uses: actions/setup-python@v2
+      with:
+        python-version: 3.6
+         
+    - name: Install dependencies
+      run: pip3 install -r requirements.txt
+      
+    - name: Test with unittest
+      run:  python3 source/test_model.py
+
+
+    - name: Build and Push Docker Image
+      uses: mr-smithers-excellent/docker-build-push@v4
+      with:
+        image: ganeshbarma/live_mask_detection
+        tag: latest
+        registry: docker.io
+        username: ${{ secrets.DOCKERID }}
+        password: ${{ secrets.DOCKERPASS }} 
+
+    - name: Deploy to heroku        
+      uses: akhileshns/heroku-deploy@v3.12.12 # This is the action
+      with:
+        heroku_api_key: ${{secrets.HEROKUKEY}}
+        heroku_app_name: "live-mask-detection"
+        heroku_email: "barmaganesh@gmail.com"
+        usedocker: true
+
+
+    - name: Heroku login status
+      run:  heroku auth:whoami
