@@ -1824,3 +1824,120 @@
 2022-05-12 16:04:09,931 Label of Img :- 0 with accuracy 100.000000 i.e Status : MASK
 2022-05-12 16:04:10,027 Label of Img :- 1 with accuracy 96.470000 i.e Status : NO MASK
 2022-05-12 16:04:10,138 Label of Img :- 1 with accuracy 99.870000 i.e Status : NO MASK
+
+2022-05-12 16:58:33,390 127.0.0.1 - - [12/May/2022 16:58:33] "[37mGET / HTTP/1.1[0m" 200 -
+2022-05-12 16:59:45,577  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-05-12 16:59:46,937 127.0.0.1 - - [12/May/2022 16:59:46] "[37mGET / HTTP/1.1[0m" 200 -
+2022-05-12 16:59:47,067 127.0.0.1 - - [12/May/2022 16:59:47] "[33mGET /static/images/mask_image.png HTTP/1.1[0m" 404 -
+2022-05-12 16:59:56,137 127.0.0.1 - - [12/May/2022 16:59:56] "[37mGET / HTTP/1.1[0m" 200 -
+2022-05-12 16:59:56,233 127.0.0.1 - - [12/May/2022 16:59:56] "[33mGET /static/images/mask_image.png HTTP/1.1[0m" 404 -
+2022-05-12 17:00:20,915 Label of Img :- 1 with accuracy 99.500000 i.e Status : NO MASK
+2022-05-12 17:00:20,924 127.0.0.1 - - [12/May/2022 17:00:20] "[37mGET /video_feed HTTP/1.1[0m" 200 -
+2022-05-12 17:00:21,006 Label of Img :- 1 with accuracy 97.040000 i.e Status : NO MASK
+2022-05-12 17:00:21,139 Label of Img :- 0 with accuracy 100.000000 i.e Status : MASK
+2022-05-12 17:00:21,230 Label of Img :- 1 with accuracy 99.310000 i.e Status : NO MASK
+2022-05-12 17:00:21,282 Label of Img :- 0 with accuracy 98.300000 i.e Status : MASK
+2022-05-12 17:00:21,382 Label of Img :- 0 with accuracy 100.000000 i.e Status : MASK
+2022-05-12 17:00:21,475 Label of Img :- 0 with accuracy 98.660000 i.e Status : MASK
+2022-05-12 17:00:21,570 Label of Img :- 0 with accuracy 99.200000 i.e Status : MASK
+2022-05-12 17:00:21,670 Label of Img :- 1 with accuracy 96.100000 i.e Status : NO MASK
+2022-05-12 17:00:21,788 Label of Img :- 0 with accuracy 100.000000 i.e Status : MASK
+2022-05-12 17:00:21,911 Label of Img :- 0 with accuracy 99.950000 i.e Status : MASK
+2022-05-12 17:00:22,015 Label of Img :- 1 with accuracy 58.840000 i.e Status : NO MASK
+2022-05-12 17:00:22,073 Label of Img :- 0 with accuracy 99.760000 i.e Status : MASK
+2022-05-12 17:00:22,167 Label of Img :- 0 with accuracy 99.940000 i.e Status : MASK
+2022-05-12 17:00:22,267 Label of Img :- 0 with accuracy 98.180000 i.e Status : MASK
+2022-05-12 17:00:22,359 Label of Img :- 0 with accuracy 69.500000 i.e Status : MASK
+2022-05-12 17:00:22,466 Label of Img :- 1 with accuracy 93.670000 i.e Status : NO MASK
+2022-05-12 17:00:22,516 Label of Img :- 1 with accuracy 99.830000 i.e Status : NO MASK
+2022-05-12 17:00:22,614 Label of Img :- 1 with accuracy 91.070000 i.e Status : NO MASK
+2022-05-12 17:00:22,670 Label of Img :- 0 with accuracy 99.890000 i.e Status : MASK
+2022-05-12 17:00:22,758 Label of Img :- 1 with accuracy 94.380000 i.e Status : NO MASK
+2022-05-12 17:00:22,851 Label of Img :- 1 with accuracy 71.930000 i.e Status : NO MASK
+2022-05-12 17:00:22,943 Label of Img :- 0 with accuracy 99.950000 i.e Status : MASK
+2022-05-12 17:00:23,043 Label of Img :- 0 with accuracy 99.750000 i.e Status : MASK
+2022-05-12 17:00:23,131 Label of Img :- 0 with accuracy 100.000000 i.e Status : MASK
+2022-05-12 17:00:23,263 Label of Img :- 1 with accuracy 50.370000 i.e Status : NO MASK
+2022-05-12 17:00:23,350 Label of Img :- 1 with accuracy 52.840000 i.e Status : NO MASK
+2022-05-12 17:00:23,445 Label of Img :- 1 with accuracy 93.070000 i.e Status : NO MASK
+2022-05-12 17:00:23,505 Label of Img :- 0 with accuracy 82.860000 i.e Status : MASK
+2022-05-12 17:00:23,595 Label of Img :- 1 with accuracy 98.770000 i.e Status : NO MASK
+2022-05-12 17:00:23,697 Label of Img :- 0 with accuracy 95.490000 i.e Status : MASK
+2022-05-12 17:00:23,790 Label of Img :- 0 with accuracy 81.980000 i.e Status : MASK
+2022-05-12 17:00:23,844 Label of Img :- 0 with accuracy 99.960000 i.e Status : MASK
+2022-05-12 17:00:23,977 Label of Img :- 0 with accuracy 98.850000 i.e Status : MASK
+2022-05-12 17:00:24,071 Label of Img :- 0 with accuracy 98.790000 i.e Status : MASK
+2022-05-12 17:00:24,188 Label of Img :- 0 with accuracy 99.990000 i.e Status : MASK
+2022-05-12 17:00:24,283 Label of Img :- 1 with accuracy 99.840000 i.e Status : NO MASK
+2022-05-12 17:00:24,370 Label of Img :- 0 with accuracy 70.500000 i.e Status : MASK
+2022-05-12 17:00:24,459 Label of Img :- 1 with accuracy 97.680000 i.e Status : NO MASK
+2022-05-12 17:00:24,512 Label of Img :- 1 with accuracy 94.160000 i.e Status : NO MASK
+2022-05-12 17:00:24,607 Label of Img :- 0 with accuracy 97.630000 i.e Status : MASK
+2022-05-12 17:00:24,699 Label of Img :- 0 with accuracy 93.440000 i.e Status : MASK
+2022-05-12 17:00:24,795 Label of Img :- 0 with accuracy 99.540000 i.e Status : MASK
+2022-05-12 17:00:24,906 Label of Img :- 0 with accuracy 83.610000 i.e Status : MASK
+2022-05-12 17:00:24,996 Label of Img :- 1 with accuracy 88.580000 i.e Status : NO MASK
+2022-05-12 17:00:25,089 Label of Img :- 1 with accuracy 80.820000 i.e Status : NO MASK
+2022-05-12 17:00:25,183 Label of Img :- 1 with accuracy 99.470000 i.e Status : NO MASK
+2022-05-12 17:00:25,271 Label of Img :- 1 with accuracy 78.390000 i.e Status : NO MASK
+2022-05-12 17:00:25,365 Label of Img :- 1 with accuracy 88.070000 i.e Status : NO MASK
+2022-05-12 17:00:25,455 Label of Img :- 0 with accuracy 99.990000 i.e Status : MASK
+2022-05-12 17:00:25,571 Label of Img :- 1 with accuracy 97.300000 i.e Status : NO MASK
+2022-05-12 17:00:25,665 Label of Img :- 1 with accuracy 63.590000 i.e Status : NO MASK
+2022-05-12 17:00:25,757 Label of Img :- 0 with accuracy 99.770000 i.e Status : MASK
+2022-05-12 17:00:25,844 Label of Img :- 0 with accuracy 100.000000 i.e Status : MASK
+2022-05-12 17:00:25,943 Label of Img :- 0 with accuracy 99.020000 i.e Status : MASK
+2022-05-12 17:00:26,035 Label of Img :- 1 with accuracy 98.560000 i.e Status : NO MASK
+2022-05-12 17:00:26,083 Label of Img :- 0 with accuracy 85.740000 i.e Status : MASK
+2022-05-12 17:00:26,182 Label of Img :- 0 with accuracy 99.440000 i.e Status : MASK
+2022-05-12 17:00:26,282 Label of Img :- 0 with accuracy 99.350000 i.e Status : MASK
+2022-05-12 17:00:26,386 Label of Img :- 0 with accuracy 90.270000 i.e Status : MASK
+2022-05-12 17:00:26,482 Label of Img :- 0 with accuracy 99.990000 i.e Status : MASK
+2022-05-12 17:00:26,585 Label of Img :- 0 with accuracy 99.670000 i.e Status : MASK
+2022-05-12 17:00:26,681 Label of Img :- 0 with accuracy 78.030000 i.e Status : MASK
+2022-05-12 17:00:26,793 Label of Img :- 0 with accuracy 99.980000 i.e Status : MASK
+2022-05-12 17:00:26,890 Label of Img :- 0 with accuracy 99.410000 i.e Status : MASK
+2022-05-12 17:00:26,992 Label of Img :- 0 with accuracy 97.400000 i.e Status : MASK
+2022-05-12 17:00:27,092 Label of Img :- 0 with accuracy 99.410000 i.e Status : MASK
+2022-05-12 17:00:27,195 Label of Img :- 0 with accuracy 99.610000 i.e Status : MASK
+2022-05-12 17:00:27,300 Label of Img :- 0 with accuracy 99.950000 i.e Status : MASK
+2022-05-12 17:00:27,394 Label of Img :- 0 with accuracy 100.000000 i.e Status : MASK
+2022-05-12 17:00:27,489 Label of Img :- 0 with accuracy 99.480000 i.e Status : MASK
+2022-05-12 17:00:27,581 Label of Img :- 0 with accuracy 100.000000 i.e Status : MASK
+2022-05-12 17:00:27,684 Label of Img :- 1 with accuracy 99.080000 i.e Status : NO MASK
+2022-05-12 17:00:27,738 Label of Img :- 0 with accuracy 99.990000 i.e Status : MASK
+2022-05-12 17:00:27,841 Label of Img :- 0 with accuracy 99.520000 i.e Status : MASK
+2022-05-12 17:00:27,935 Label of Img :- 0 with accuracy 98.890000 i.e Status : MASK
+2022-05-12 17:00:28,032 Label of Img :- 0 with accuracy 100.000000 i.e Status : MASK
+2022-05-12 17:00:28,237 Label of Img :- 0 with accuracy 100.000000 i.e Status : MASK
+2022-05-12 17:00:29,645 Label of Img :- 1 with accuracy 98.760000 i.e Status : NO MASK
+2022-05-12 17:00:30,273 Label of Img :- 1 with accuracy 94.890000 i.e Status : NO MASK
+2022-05-12 17:00:30,743 Label of Img :- 1 with accuracy 92.550000 i.e Status : NO MASK
+2022-05-12 17:00:30,829 Label of Img :- 1 with accuracy 95.950000 i.e Status : NO MASK
+2022-05-12 17:00:30,963 Label of Img :- 0 with accuracy 100.000000 i.e Status : MASK
+2022-05-12 17:00:31,053 Label of Img :- 0 with accuracy 99.520000 i.e Status : MASK
+2022-05-12 17:00:31,113 Label of Img :- 1 with accuracy 97.840000 i.e Status : NO MASK
+2022-05-12 17:00:31,502 Label of Img :- 1 with accuracy 96.460000 i.e Status : NO MASK
+2022-05-12 17:00:31,594 Label of Img :- 1 with accuracy 90.890000 i.e Status : NO MASK
+2022-05-12 17:00:31,644 Label of Img :- 1 with accuracy 91.340000 i.e Status : NO MASK
+2022-05-12 17:00:31,985 Label of Img :- 1 with accuracy 51.990000 i.e Status : NO MASK
+2022-05-12 17:00:32,628 Label of Img :- 1 with accuracy 95.080000 i.e Status : NO MASK
+2022-05-12 17:00:32,679 Label of Img :- 0 with accuracy 99.950000 i.e Status : MASK
+2022-05-12 17:00:32,774 Label of Img :- 0 with accuracy 95.510000 i.e Status : MASK
+2022-05-12 17:00:32,863 Label of Img :- 0 with accuracy 55.500000 i.e Status : MASK
+2022-05-12 17:00:32,957 Label of Img :- 0 with accuracy 94.890000 i.e Status : MASK
+2022-05-12 17:00:33,054 Label of Img :- 1 with accuracy 96.460000 i.e Status : NO MASK
+2022-05-12 17:00:33,149 Label of Img :- 1 with accuracy 99.560000 i.e Status : NO MASK
+2022-05-12 17:00:33,298 Label of Img :- 1 with accuracy 95.170000 i.e Status : NO MASK
+2022-05-12 17:00:33,417 Label of Img :- 0 with accuracy 78.630000 i.e Status : MASK
+2022-05-12 17:00:33,521 Label of Img :- 1 with accuracy 86.610000 i.e Status : NO MASK
+2022-05-12 17:00:33,575 Label of Img :- 0 with accuracy 99.880000 i.e Status : MASK
+2022-05-12 17:00:33,680 Label of Img :- 0 with accuracy 92.690000 i.e Status : MASK
+2022-05-12 17:00:33,775 Label of Img :- 0 with accuracy 93.780000 i.e Status : MASK
+2022-05-12 17:00:33,871 Label of Img :- 0 with accuracy 85.680000 i.e Status : MASK
+2022-05-12 17:00:33,921 Label of Img :- 1 with accuracy 76.070000 i.e Status : NO MASK
+2022-05-12 17:00:34,027 Label of Img :- 0 with accuracy 99.040000 i.e Status : MASK
+2022-05-12 17:00:34,129 Label of Img :- 0 with accuracy 99.790000 i.e Status : MASK
+2022-05-12 17:00:34,239 Label of Img :- 1 with accuracy 71.570000 i.e Status : NO MASK
+2022-05-12 17:00:34,348 Label of Img :- 0 with accuracy 79.680000 i.e Status : MASK
+2022-05-12 17:00:34,489 Label of Img :- 0 with accuracy 83.360000 i.e Status : MASK
