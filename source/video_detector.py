@@ -58,22 +58,7 @@ def output_layers(net):
     layer_names = net.getLayerNames()
     layers = [layer_names[i[0] - 1] for i in net.getUnconnectedOutLayers()]
     return layers
-"""
-def yolov4_detections(features,width,height,prob_thresh):
-    ids,object_probability,bounding_box= [],[],[]
-    for feature in features:
-        for obj_prob in feature:
-            scores = obj_prob[5:]
-            id = np.argmax(scores)
-            probability = scores[id]
-            if(probability > prob_thresh):
-                w,h = int(obj_prob[2]*width),int(obj_prob[3]*height)
-                x,y = int(obj_prob[0]*width) - w / 2,int(obj_prob[1]*height) - h / 2
-                ids.append(id)
-                object_probability.append(float(probability))
-                bounding_box.append([x,y,w,h])
-    return bounding_box,object_probability,ids
-"""
+
 def video_mask_detector():
     video = VideoStream(src=0).start()
     time.sleep(1.0)
@@ -109,16 +94,6 @@ def detect_mask_in_frame(img):
 #        result = mask_detection.predict(reshaped)
         result = model.predict(reshaped)
         label = np.argmax(result,axis=1)[0]
-        # mouth = mouth_clsfr.detectMultiScale(face_img,1.3,4)
-        # for (x_mouth,y_mouth,w_mouth,h_mouth) in mouth:
-        #     # print('face cord: ',round(x), round(y), round(x+w), round(y+h))
-        #     # print('mouth cord: ',x_mouth,y_mouth,x_mouth+w_mouth,y_mouth+h_mouth)
-        #     if((x_mouth > round(x)) and (x_mouth + w_mouth < round(x+w)) and (y_mouth > round(y)) and (y_mouth + h_mouth) < round(y+h) and label ==0):
-        #         label = 2
-        # nose = nose_clsfr.detectMultiScale(face_img,1.3,4)
-        # if(label == 0 and len(mouth) != 0 and len(nose) != 0): label = 2
- #       if(label == 1):
-#            playsound('1.wav')
         accuracy = "{:.2f}".format(np.max(result) * 100)
         label_txt = labels_dict[label] + " " + str(accuracy) + "%"
         cv2.rectangle(img,(x,y),(x+w,y+h) ,color_dict[label],2)
